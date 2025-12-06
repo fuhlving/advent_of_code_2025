@@ -37,7 +37,6 @@ def task_1(content: list) -> int:
 
     return sum
 
-
 def task_2(content: list) -> int:
     dii = dict()
     operator = dict()
@@ -74,8 +73,6 @@ def task_2(content: list) -> int:
         sum += add
     
     return sum
-    
-
 
 def solve():
     with open(FILE) as f:
@@ -83,13 +80,6 @@ def solve():
                 
     print(f"Task 1: {task_1(content)}")
     print(f"Task 2: {task_2(content)}")
-
-
-
-
-
-    
-
 
 if __name__ == "__main__":
     solve()
